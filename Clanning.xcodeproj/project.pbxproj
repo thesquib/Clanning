@@ -63,6 +63,7 @@
 		AAFC934B169ADAF7005E1E56 /* mystic.png in Resources */ = {isa = PBXBuildFile; fileRef = AAFC9343169ADAF7005E1E56 /* mystic.png */; };
 		AAFC934C169ADAF7005E1E56 /* ranger.png in Resources */ = {isa = PBXBuildFile; fileRef = AAFC9344169ADAF7005E1E56 /* ranger.png */; };
 		B574317D198EDE7D00AE9BA7 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B574317C198EDE7D00AE9BA7 /* Sparkle.framework */; };
+		C9BEFE3A19B9181700750638 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B574317C198EDE7D00AE9BA7 /* Sparkle.framework */; };
 		FC0EA0D6159A2AB300734317 /* CLPlayerWithImageAndClanViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0EA0D5159A2AB300734317 /* CLPlayerWithImageAndClanViewCell.m */; };
 		FC0EA0DA159A345800734317 /* CLAnnouncement.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0EA0D9159A345800734317 /* CLAnnouncement.m */; };
 		FC0EA0DD159A34FC00734317 /* CLXMLParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0EA0DC159A34FC00734317 /* CLXMLParserDelegate.m */; };
@@ -104,8 +105,6 @@
 		FCE9079D14A56BDA00549B21 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FCE9079B14A56BDA00549B21 /* Credits.rtf */; };
 		FCE907A014A56BDA00549B21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE9079F14A56BDA00549B21 /* AppDelegate.m */; };
 		FCE907A314A56BDA00549B21 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE907A114A56BDA00549B21 /* MainMenu.xib */; };
-		FCE907AB14A56BDB00549B21 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE907AA14A56BDA00549B21 /* SenTestingKit.framework */; };
-		FCE907AC14A56BDB00549B21 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE9078C14A56BDA00549B21 /* Cocoa.framework */; };
 		FCE907C814A57E6800549B21 /* CLDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE907C714A57E6800549B21 /* CLDataSource.m */; };
 		FCE907D614A5A72400549B21 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE907D514A5A72400549B21 /* Growl.framework */; };
 		FCE907DD14A655C300549B21 /* CLPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE907DC14A655C300549B21 /* CLPlayer.m */; };
@@ -122,16 +121,6 @@
 		FCEE65A4159A8176008B36FA /* CLPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEE65A3159A8176008B36FA /* CLPreferencesWindowController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		FCE907AD14A56BDB00549B21 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FCE9077F14A56BDA00549B21 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FCE9078714A56BDA00549B21;
-			remoteInfo = CLDataParser;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		FC9DE1D814AA920F002C917D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -139,6 +128,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				C9BEFE3A19B9181700750638 /* Sparkle.framework in CopyFiles */,
 				FC9DE1D914AA9219002C917D /* Growl.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,7 +254,6 @@
 		FCE9079E14A56BDA00549B21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FCE9079F14A56BDA00549B21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FCE907A214A56BDA00549B21 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		FCE907A914A56BDA00549B21 /* ClanningTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClanningTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE907AA14A56BDA00549B21 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		FCE907C614A57E6800549B21 /* CLDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDataSource.h; sourceTree = "<group>"; };
 		FCE907C714A57E6800549B21 /* CLDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDataSource.m; sourceTree = "<group>"; };
@@ -295,15 +284,6 @@
 				B574317D198EDE7D00AE9BA7 /* Sparkle.framework in Frameworks */,
 				FC42993D15B2BC1C009601C9 /* SystemConfiguration.framework in Frameworks */,
 				FCE9078D14A56BDA00549B21 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FCE907A514A56BDA00549B21 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FCE907AB14A56BDB00549B21 /* SenTestingKit.framework in Frameworks */,
-				FCE907AC14A56BDB00549B21 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,7 +434,6 @@
 			isa = PBXGroup;
 			children = (
 				FCE9078814A56BDA00549B21 /* Clanning.app */,
-				FCE907A914A56BDA00549B21 /* ClanningTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -573,25 +552,6 @@
 			productReference = FCE9078814A56BDA00549B21 /* Clanning.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FCE907A814A56BDA00549B21 /* ClanningTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FCE907BD14A56BDB00549B21 /* Build configuration list for PBXNativeTarget "ClanningTests" */;
-			buildPhases = (
-				FCE907A414A56BDA00549B21 /* Sources */,
-				FCE907A514A56BDA00549B21 /* Frameworks */,
-				FCE907A614A56BDA00549B21 /* Resources */,
-				FCE907A714A56BDA00549B21 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FCE907AE14A56BDB00549B21 /* PBXTargetDependency */,
-			);
-			name = ClanningTests;
-			productName = CLDataParserTests;
-			productReference = FCE907A914A56BDA00549B21 /* ClanningTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -624,7 +584,6 @@
 			projectRoot = "";
 			targets = (
 				FCE9078714A56BDA00549B21 /* Clanning */,
-				FCE907A814A56BDA00549B21 /* ClanningTests */,
 			);
 		};
 /* End PBXProject section */
@@ -722,30 +681,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FCE907A614A56BDA00549B21 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		FCE907A714A56BDA00549B21 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FCE9078414A56BDA00549B21 /* Sources */ = {
@@ -776,22 +712,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FCE907A414A56BDA00549B21 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FCE907AE14A56BDB00549B21 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FCE9078714A56BDA00549B21 /* Clanning */;
-			targetProxy = FCE907AD14A56BDB00549B21 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FCE9079514A56BDA00549B21 /* InfoPlist.strings */ = {
@@ -968,36 +889,6 @@
 			};
 			name = Release;
 		};
-		FCE907BE14A56BDB00549B21 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CLDataParser.app/Contents/MacOS/CLDataParser";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CLDataParser/CLDataParser-Prefix.pch";
-				INFOPLIST_FILE = "CLDataParserTests/ClanningTests-Info.plist";
-				PRODUCT_NAME = ClanningTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		FCE907BF14A56BDB00549B21 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CLDataParser.app/Contents/MacOS/CLDataParser";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CLDataParser/CLDataParser-Prefix.pch";
-				INFOPLIST_FILE = "CLDataParserTests/ClanningTests-Info.plist";
-				PRODUCT_NAME = ClanningTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1015,15 +906,6 @@
 			buildConfigurations = (
 				FCE907BB14A56BDB00549B21 /* Debug */,
 				FCE907BC14A56BDB00549B21 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		FCE907BD14A56BDB00549B21 /* Build configuration list for PBXNativeTarget "ClanningTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FCE907BE14A56BDB00549B21 /* Debug */,
-				FCE907BF14A56BDB00549B21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
