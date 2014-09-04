@@ -63,7 +63,7 @@
 		AAFC934B169ADAF7005E1E56 /* mystic.png in Resources */ = {isa = PBXBuildFile; fileRef = AAFC9343169ADAF7005E1E56 /* mystic.png */; };
 		AAFC934C169ADAF7005E1E56 /* ranger.png in Resources */ = {isa = PBXBuildFile; fileRef = AAFC9344169ADAF7005E1E56 /* ranger.png */; };
 		B574317D198EDE7D00AE9BA7 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B574317C198EDE7D00AE9BA7 /* Sparkle.framework */; };
-		C9BEFE3A19B9181700750638 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B574317C198EDE7D00AE9BA7 /* Sparkle.framework */; };
+		C9BEFE3A19B9181700750638 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B574317C198EDE7D00AE9BA7 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		FC0EA0D6159A2AB300734317 /* CLPlayerWithImageAndClanViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0EA0D5159A2AB300734317 /* CLPlayerWithImageAndClanViewCell.m */; };
 		FC0EA0DA159A345800734317 /* CLAnnouncement.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0EA0D9159A345800734317 /* CLAnnouncement.m */; };
 		FC0EA0DD159A34FC00734317 /* CLXMLParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0EA0DC159A34FC00734317 /* CLXMLParserDelegate.m */; };
@@ -83,7 +83,7 @@
 		FC90095915A36BB600588277 /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = FC90095815A36BB500588277 /* Growl Registration Ticket.growlRegDict */; };
 		FC90095E15A3819D00588277 /* femaleUndisclosed0.png in Resources */ = {isa = PBXBuildFile; fileRef = FC90095B15A3819D00588277 /* femaleUndisclosed0.png */; };
 		FC90095F15A3819D00588277 /* femaleUndisclosed1.png in Resources */ = {isa = PBXBuildFile; fileRef = FC90095C15A3819D00588277 /* femaleUndisclosed1.png */; };
-		FC9DE1D914AA9219002C917D /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FCE907D514A5A72400549B21 /* Growl.framework */; };
+		FC9DE1D914AA9219002C917D /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FCE907D514A5A72400549B21 /* Growl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		FCAF712C168E9D0C0004C872 /* CLNumberOnlyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAF712B168E9D0C0004C872 /* CLNumberOnlyTextField.m */; };
 		FCAF712F168ECE700004C872 /* status.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAF712E168ECE700004C872 /* status.png */; };
 		FCAF7132169013350004C872 /* NSUserDefaults+CLColorUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAF7131169013340004C872 /* NSUserDefaults+CLColorUtilities.m */; };
@@ -819,7 +819,6 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/CLDataParser\"",
 					"$(SRCROOT)",
-					"/Users/emma/Downloads/Sparkle-1.7.1",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/CLDataParser",
 				);
@@ -860,7 +859,6 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/CLDataParser\"",
 					"$(SRCROOT)",
-					"/Users/emma/Downloads/Sparkle-1.7.1",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/CLDataParser",
 				);
